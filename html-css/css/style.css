@@ -1,0 +1,170 @@
+
+/*
+    Created on : 13-mar-2017, 18:21:56
+    Author     : Oscar Fabián Chacón Bolaños
+*/
+
+/*Exercise 1*/
+#container-normal {
+  /*position: static;*/
+  border: 5px solid red;
+  max-width: 20%;
+}
+
+#content-container-normal {
+  position: static;
+  border: 20px solid;
+  background-color: lightgray;
+}
+
+#header-normal {
+  margin-left: 5%;
+}
+
+.pformat {
+  margin-left: 5%;
+}
+
+/*Exercise 2*/
+#container-relative {
+  /*position: relative;*/
+  border: 5px solid red;
+  max-width: 20%;
+}
+
+#content-container-relative {
+  position: relative;
+  border: 20px solid;
+  background-color: lightgray;
+}
+
+#header-relative {
+  margin-left: 5%;
+}
+
+.prel {
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+#prelative {
+  position: relative;
+  /*text-indent: 50px;*/
+  margin-left: 20%;
+  margin-bottom: 0;
+}
+
+/*Exercise 3*/
+#container-absolute {
+  /*position: absolute;*/
+  border: 5px solid red;
+  max-width: 20%;
+}
+
+#content-container-absolute {
+  /*position: absolute;*/
+  border: 20px solid;
+  background-color: lightgray;
+}
+
+#header-absolute {
+  position: absolute;
+  color: white;
+  border: 1px solid transparent;
+  background-color: gray;
+  margin-left: 10.33%;
+  height: 6%;
+}
+
+/*Exercise 4*/
+#container-fixed {
+  /*position: fixed;*/
+  border: 5px solid red;
+  max-width: 16%;
+}
+
+#content-container-fixed {
+  /*position: fixed;*/
+  border: 20px solid;
+  background-color: lightgray;
+}
+
+#header-fixed {
+  position: fixed;
+  color: white;
+  border: 1px solid transparent;
+  background-color: gray;
+  margin-top: 3%;
+  margin-left: 3%;
+  height: 6%;
+}
+
+/*Exercise 5*/
+#container-float {
+  /*float: right*/
+  border: 5px solid red;
+  max-width: 25%;
+}
+
+#content-container-float {
+  /*float: right;*/
+  border: 20px solid;
+  background-color: lightgray;
+}
+/*
+#pfloat {
+  float: right;
+}
+*/
+
+#header-float {
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+/*Exercise 6*/
+.column1of2 {
+  float: left;
+  width: 620px;
+  margin: 10px;
+}
+.column2of2 {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+.column1of3, .column2of3, .column3of3 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+
+#list {
+  list-style-type: none;
+  display: inline;
+}
+/*Exercise 7*/
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+#content {
+  overflow: auto;
+  height: 100%;
+}
+#nav, #feature, #footer {
+  background-color: #efefef;
+  padding: 10px;
+  margin: 10px;
+}
+.column1, .column2, .column3 {
+  background-color: #efefef;
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+li {
+  display: inline;
+  padding: 5px;
+}
