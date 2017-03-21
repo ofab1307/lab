@@ -1,72 +1,60 @@
-
 /*
-    Created on : 13-mar-2017, 18:21:56
-    Author     : Oscar Fabián Chacón Bolaños
+    Created on: 13-mar-2017, 18:21:56
+    Author: Oscar Fabián Chacón Bolaños
 */
 
-/*Exercise 1*/
+@import url("tables.css");
+@import url("typography.css");
+
+/*Exercise 1 Normal Flow*/
 #container-normal {
-  /*position: static;*/
   border: 5px solid red;
   max-width: 20%;
 }
-
 #content-container-normal {
   position: static;
   border: 20px solid;
   background-color: lightgray;
 }
-
 #header-normal {
   margin-left: 5%;
 }
-
 .pformat {
   margin-left: 5%;
 }
 
-/*Exercise 2*/
+/*Exercise 2 Relative Positioning*/
 #container-relative {
-  /*position: relative;*/
   border: 5px solid red;
   max-width: 20%;
 }
-
 #content-container-relative {
   position: relative;
   border: 20px solid;
   background-color: lightgray;
 }
-
 #header-relative {
   margin-left: 5%;
 }
-
 .prel {
   margin-left: 5%;
   margin-top: 0;
 }
-
 #prelative {
   position: relative;
-  /*text-indent: 50px;*/
   margin-left: 20%;
   margin-bottom: 0;
 }
 
-/*Exercise 3*/
+/*Exercise 3 Absolute Positioning*/
 #container-absolute {
-  /*position: absolute;*/
   border: 5px solid red;
-  max-width: 20%;
+  max-width: 23.1%;
 }
-
 #content-container-absolute {
-  /*position: absolute;*/
   border: 20px solid;
   background-color: lightgray;
 }
-
 #header-absolute {
   position: absolute;
   color: white;
@@ -76,19 +64,15 @@
   height: 6%;
 }
 
-/*Exercise 4*/
+/*Exercise 4 Fixed Positioning*/
 #container-fixed {
-  /*position: fixed;*/
   border: 5px solid red;
-  max-width: 16%;
+  max-width: 20%;
 }
-
 #content-container-fixed {
-  /*position: fixed;*/
   border: 20px solid;
   background-color: lightgray;
 }
-
 #header-fixed {
   position: fixed;
   color: white;
@@ -97,33 +81,25 @@
   margin-top: 3%;
   margin-left: 3%;
   height: 6%;
+  text-align: center;
 }
 
-/*Exercise 5*/
+/*Exercise 5 Floating Elements*/
 #container-float {
-  /*float: right*/
   border: 5px solid red;
-  max-width: 25%;
+  max-width: 20%;
 }
-
 #content-container-float {
-  /*float: right;*/
   border: 20px solid;
   background-color: lightgray;
 }
-/*
-#pfloat {
-  float: right;
-}
-*/
-
 #header-float {
   float: left;
   margin-right: 5%;
   margin-left: 5%;
 }
 
-/*Exercise 6*/
+/*Exercise 6 Multicolumns Layout*/
 .column1of2 {
   float: left;
   width: 620px;
@@ -140,31 +116,131 @@
   margin: 10px;
 }
 
-#list {
-  list-style-type: none;
-  display: inline;
-}
-/*Exercise 7*/
-body {
+/*Exercise 7 Fixed Width Layout*/
+#body-width {
   width: 960px;
   margin: 0 auto;
 }
-#content {
+#content-width {
   overflow: auto;
   height: 100%;
 }
-#nav, #feature, #footer {
-  background-color: #efefef;
+#nav-width, #feature-width, #footer-width {
+  background-color: green;
   padding: 10px;
   margin: 10px;
+  text-align: center;
+  color: white;
 }
-.column1, .column2, .column3 {
-  background-color: #efefef;
+.column1-width, .column2-width, .column3-width {
+  background-color: green;
   width: 300px;
   float: left;
   margin: 10px;
+  text-align: center;
+  color: white;
 }
-li {
+#li-width {
   display: inline;
   padding: 5px;
+}
+#img-width {
+  max-width: 50%;
+  height: auto;
+  align-self: center;
+  margin-left: 25%;
+}
+
+/*Exercise 8 Liquid Layout*/
+#body-liquid {
+  width: 90%;
+  margin: 0 auto;
+}
+#content-liquid {
+  overflow: auto;
+}
+#nav-liquid, #feature-liquid, #footer-liquid {
+  margin: 1%;
+}
+.column1-liquid, .column2-liquid, .column3-liquid {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  text-align: center;
+  color: white;
+}
+.column3-liquid {
+  margin-right: 0%;
+}
+#li-liquid {
+  display: inline;
+  padding: 50px;
+}
+#nav-liquid,#footer-liquid {
+  background-color: lightblue;
+  padding: 0.5em 0;
+  text-align: center;
+  color: white;
+}
+#feature-liquid, .article-liquid {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: lightblue;
+  text-align: center;
+  color: white;
+}
+#img-liquid {
+  max-width: 37%;
+  height: auto;
+  align-self: center;
+  margin-left: 31%;
+}
+
+/*Exercise 9 Grid Layout*/
+#body-grid {
+  font-family: Arial, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+#nav-grid {
+  background-color: pink;
+  margin-top: 20px;
+  min-height: 150px;
+  padding: 10px 0px 5px 0px;
+}
+#feature-grid, #footer-grid {
+  background-color: pink;
+  margin-top: 20px;
+  min-height: 5px;
+  padding: 10px 0px 5px 0px;
+}
+#middle-grid {
+  background-color: pink;
+  margin-top: 20px;
+  min-height: 180px;
+  padding: 10px 0px 5px 0px;
+}
+.article-grid {
+  background-color: pink;
+  margin-top: 20px;
+  min-height: 160px;
+  padding: 10px 0px 5px 0px;
+}
+
+/*Exercise 10 Multiple Stylesheets*/
+#body-multiple {
+  color: #666666;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+#page-multiple {
+  width: 600px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #d6d6d6;
+  padding: 20px;
+}
+h3 {
+  color: #547ca0;
 }
