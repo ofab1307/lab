@@ -1,0 +1,66 @@
+
+.enviaTextArea {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.button-list > button {
+    margin: 15px;
+
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.button-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+
+.id-selector {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.class-selector {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.tag-selector {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.selector-editar-texto {
+    color: #FFFF00;
+    background-color: #FBFBEF;
+    border-color: #F3F781;
+}
+
+.selector-hijo {
+    color: #B40486;
+    background-color: #F5A9D0;
+    border-color: #FE2EF7;
+}

@@ -1,0 +1,85 @@
+
+html, body {
+  overflow-x: hidden;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 80px;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: green;
+}
+
+h4 {
+  color: red;
+}
+
+.header {
+  background-color: orange;
+}
+
+.nav {
+  text-align: center;
+  background: #333;
+}
+
+.navbar-header {
+  background: #333;
+}
+
+.navbar-default .navbar-nav > li a:hover {
+  background: orange;
+}
+
+.navbar-default .navbar-nav > li a {
+  color: white;
+}
+
+#demo-navbar-collapse {
+  background: #333;
+}
+
+span#text-span {
+    text-decoration:line-through;
+}
+
+span.color-span {
+    color: red;
+}
+
+#ss  {
+    position:static;
+    width:100%;
+    height:auto;
+}
+
+*.box {
+    padding:2px;
+    border:2px solid black;
+    background-color: gold;
+}
+
+.footer {
+  background-color: orange;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer ul{
+    display: none;
+  }
+}

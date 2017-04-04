@@ -3,9 +3,10 @@
 
 <head lang="en">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/ex1-2.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
     <title>Laboratorio JS y JQuery</title>
 </head>
 
@@ -84,12 +85,19 @@
     </div>
     <div>
         <form title="Calcular Fecha de Nacimiento">
-            <input type="text" id="name" name="name" value="">
-            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" value="">
-            <button type="button" id="btn_calcular_edad">Calcular Edad</button>
+            <input type="text" id="nombre" name="nombre" value="">
+            <input type="date" id="fecha" name="fecha" value="">
+            <button type="button" id="button_calcularEdad">Calcular Edad</button>
             <br/>
-            <textarea rows="4" cols="50" disabled id="mostrarResultado">Resultado</textarea>
+            <textarea rows="4" cols="50" disabled id="mostrarResultados">Resultado</textarea>
         </form>
+    </div>
+    <div class="button-list">
+        <button class="button button-default" type="button" id="button_idSelector">ID Selector</button>
+        <button class="button button-default" type="button" id="button_claseSelector">Clase Selector</button>
+        <button class="button button-default" type="button" id="button_tagSelector">Tag Selector</button>
+        <button class="button button-default" type="button" id="button_selectorEditarTexto">Editar Texto Selector</button>
+        <button class="button button-default" type="button" id="button_selectorHijo">Selector Hijo</button>
     </div>
 </body>
 
