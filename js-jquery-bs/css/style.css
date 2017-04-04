@@ -1,4 +1,6 @@
 
+/*Stylesheet only to personalize the classes and selectors and id's.*/
+
 html, body {
   overflow-x: hidden;
 }
@@ -78,6 +80,7 @@ span.color-span {
   height: 80px;
 }
 
+/*Media query to hide the nav in the footer*/
 @media screen and (max-width: 768px) {
   .footer ul{
     display: none;
